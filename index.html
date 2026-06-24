@@ -1,61 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agence Digitale "TogoCréa"</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
+    <header>
+        <nav>
+            <div class="LOGGO">
+                TogoCréa
+            </div>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="equipe.html">EQUIPES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <main >
         <section class="hero">
-         <h1> Bienvenue chez TogoCréa</h1>
-         <p> Nous sommes une agence digitale et de communication web. Nous créons des solutions numériques modernes pour aider les entreprises à 
-            développer leur visibilité et à réussir sur Internet. <p>
-         <button><a href="contact.html">Demander un devis </a></button>
+        <div>
+           <h1> Bienvenue chez TogoCréa</h1>
+         
+         <p class="norbert"> Nous <em class="text">sommes une agence digitale et de communication web. Nous créons des solutions numériques modernes pour aider les entreprises à 
+             développer leur visibilité et à réussir sur Internet.</em> /<p >
+         <button class="btn"><a href="contact.html">Demander un devis </a></button>
 
+        </div>
+         <div>
+        </div>
+         
     </section >
 
-    <section class="services">
+    <section >
         
-         <h2> NOS SERVICES EN BREF</h2>
+         <h2 class="ok"> NOS SERVICES EN BREF</h2>
         
         <hr>
-        
-        <div class="services1">
+        <div  class="services">
+             <div class="services_1">
            
                   <H2><strong>Créations de site web</strong> </H2>
-                  <p>Nous concevons des sites modernes, rapides et adaptés aux mobiles pour améliorer votre présence en ligne.</p>
-                  <button><a href="#">En savoir+</a></button>
-             </article> 
+                  <p class="norbert">Nous concevons des sites modernes, rapides et adaptés aux mobiles pour améliorer votre présence en ligne.</p>
+                  <button class="btn"><a href="#">En savoir+</a></button>
+                  <hr>
             
         </div>
-        <br>
-        <hr>
-        <div class="services2">
+      
+       
+        <div class="services_2">
                     <h2><strong>Marketing digital</strong></h2>
-                    <p>Nous aidons votre entreprise à gagner en visibilité grâce à la publicité en ligne, au SEO et aux réseaux sociaux</p>
-                    <button><a href="#">En savoir+</a></button>  
+                   <p class="norbert">Nous aidons votre entreprise à gagner en visibilité grâce à la publicité en ligne, au SEO et aux réseaux sociaux</p>
+                    <button class="btn"><a href="#">En savoir+</a></button>  
                   
         </div>
-        <br>
-        <hr>
-        <div class="services3">
+       
+        
+        <div class="services_3">
                      <h2><strong>Design graphique </strong></h2>
-                     <p>Nous réalisons des logos, affiches et visuels professionnels pour renforcer votre image de marque.</p>
-                     <button><a href="#">En savoir+</a></button>  
+                    <p class="norbert">Nous réalisons des logos, affiches et visuels professionnels pour renforcer votre image de marque.</p>
+                     <button class="btn"><a href="#">En savoir+</a></button> 
+                    <hr>
         </div>
-        <br>
-        <hr>
-        <div class="services4">
+        
+        <div class="services_4">
                      <h2><strong>Maintenance et gestion de sites web</strong></h2>
-                     <p>Nous assurons la mise à jour, la sécurité et le bon fonctionnement de votre site web pour garantir une performance optimale en permanence.</p>
-                     <button><a href="#">En savoir+</a></button>
+                    <p class="norbert">Nous assurons la mise à jour, la sécurité et le bon fonctionnement de votre site web pour garantir une performance optimale en permanence.</p>
+                     <button class="btn"><a href="#">En savoir+</a></button>
                      </div>
+                     <hr>
               
-    </section>
-    <br>
-    <hr>
-    <section class="chiffres">
+   
+        </div>
+         </section>
+       
+    
+    <section id="chiffres">
           <h2> CHIFFRES CLES</h2>
           <table border="1">
             <caption>Nos performances enchiffres détaillés dans ce tableau</caption>
@@ -67,7 +94,7 @@
                 </tr>
                    <th>félix le codeur certifié</th>
                    <td>12</td>
-                  <td>développement d' un apk d' enseignement en ligneb </td>
+                  <td>développement d' un apk d' enseignement en ligne </td>
                   <td>Mention excélente</td>
                   
                 </tr>
@@ -79,28 +106,55 @@
     <hr>
     <section class="temoignages">
          <h2> ILS NOUS FONT CONFIANCES</h2>
-         <BLockquote class="1">
-            <img src="images/witness1.jpg" alt="PHOTO du témoin1" width="150">
-            "Grâce à cette agence digitale, notre visibilité en ligne a énormément augmenté. Le travail est professionnel et rapide."
-            <cite>Serge</cite>
-         </BLockquote>
-         <blockquote>
-             <img src="images/Wwitness2.jpg" alt="Wwitness2" width="150">
+         <div class="témoignage1">
+             <img src="images/Wwitness2.jpg" alt="PHOTO du témoin1" width="150">
+              <BLockquote>
+                "Grâce à cette agence digitale, notre visibilité en ligne a énormément augmenté. Le travail est professionnel et rapide."
+             </BLockquote>
+             <cite>Serge</cite><p class="norbert">Yas Togo</p>
+            
+         </div>
+         <div class="temoignage2">
+            <img src="images/witness1.jpg" alt="Wwitness2" width="150">
+            <blockquote>
              "Une équipe très compétente qui a su créer un site web moderne et adapté à nos besoins. Je recommande fortement !"
-            <cite>Prince</cite>
-         </blockquote>
+            </blockquote>
+            <cite>Nasser</cite>
+           <p class="norbert">Paris Saint GERMAIN</P>
+        
+         </div> 
+         
     </section>
     
     </main>
     <hr>
     <footer>
-        <p>C 2026 TogoCréa </p>
+       <p class="norbert">  c 2026 TogoCréa </p>
         <a href="https://www.facebook.com" target="_blank">Facebook</a>
         <a href="https://www.linkdin.com" target="_blank">linkdin</a>
         <a href="https://www.instagram.com" target="_blank">instagram</a> 
      
     </footer>
     
-   
+  <section class="section-zigzag">
+  <div class="contenu">
+    <h2>Titre</h2>
+    <p>Votre texte ici...</p>
+  </div>
+  <div class="image">
+    <img src="votre-image.jpg" alt="Description">
+  </div>
+</section>
+
+<section class="section-zigzag">
+  <div class="contenu">
+    <h2>Titre 2</h2>
+    <p>Votre texte ici...</p>
+  </div>
+  <div class="image">
+    <img src="votre-image2.jpg" alt="Description">
+  </div>
+</section>
+
 </body>
 </html>

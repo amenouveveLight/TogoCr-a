@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  
+
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+
+}
+nav ul{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+
+
+}
+
+.hero{
+      
+   height: 500px;
+    width: 100%;
+    background-image: url("../images/home.png");
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover; 
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+div{
+   color: white;
+}
+
+h1{
+    
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+   
+}
+.norbert:hover{
+    
+  color: blueviolet ;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: blue;
+    border-radius:  34px; 
+    transition: 0 ;
+    color: aliceblue;
+    margin: 30px;
+
+}
+
+.services_1,.services_2,.services_3,.services_4 {
+  text-align: center;
+  color:burlywood;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,1,0,1);
+  width: 300px;
+
+  
+}
+
+.services{
+    display: flex;
+    margin: 40px;
+    gap: 23px;
+    
+}
+h2,h1,h3{
+  text-align: center;
+  margin: 20px;
+}
+
+hr{
+  
+}
+

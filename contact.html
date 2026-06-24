@@ -1,28 +1,107 @@
-<OL>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence Digitale "TogoCréa"</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button><a href="index.html">Accueil</a></button>
 
-            <li>
-                <article >
-                  <H2>créations de site web </H2>
-                  <p>Nous concevons des sites modernes, rapides et adaptés aux mobiles pour améliorer votre présence en ligne.</p>
-                  <button><a href="#">En savoir+</a></button>
-                </article> 
-            </li>
-            <br>
-            
-       
-            <li>
-                <article>
-                    <h2>Marketing digital</h2>
-                    <p>Nous aidons votre entreprise à gagner en visibilité grâce à la publicité en ligne, au SEO et aux réseaux sociaux</p>
-                    <button><a href="#">En savoir+</a></button>  
-                   </article>
-                </li>
-            <br>
-            <li>
-                <article>
-                     <h2>Design graphique </article></h2>
-                     <p>Nous réalisons des logos, affiches et visuels professionnels pour renforcer votre image de marque.</p>
-                     <button><a href="#">En savoir+</a></button>  
-                </article>
-            </li>
-        </OL>
+    <section class="formulaire">
+        <h1>CONTACTEZ-NOUS</h1>
+
+        <div>
+              <form>
+                   <h2>to: TogoCréa </h2>
+                 
+                    <label > Veiller entrer votre nom</label> <br>
+                    <input type="text"> <br>
+
+                    <label f> Veiller entrer votre prénom</label><br>
+                    <input type="text">
+
+                    <h2>Veillez entrez votre diplomes ou attestations reçue</h2>
+
+                        <div>
+                     
+                         <input type="checkbox">
+                    <label for="">Master</label><br>
+
+                    <input type="checkbox">
+                    <label>Licence</label><br>
+
+                    <input type="checkbox">
+                    <label for="">bacalauréat deuxième partie</label><br>
+
+                    <input type="checkbox">
+                    <label for="">bacalauréat première partie</label><br>
+
+                    <input type="checkbox" checked>
+                    <label for="">BEPC</label> <br>
+
+                    
+                </div>
+
+                <label > Veiller entrer votre Email</label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <label > Veiller entrer votre mot de passe</label> <br>
+                <input type="password"><br>
+
+                <label > Veiller entrer votre date de naissance</label><br>
+                <input type="date"><br>
+         
+                <label > Veiller entrer votre sexe</label><br>
+                <input type="radio" name="sexe">
+                <label for="">Homme</label> <br>
+                <input type="radio" name="sexe">
+                <label for="">Femme</label>
+
+                <div class="">
+                    <h2>Choix du pays</h2>
+                    <select name="pays" id="pays"multiple>
+                        <option value="" > Togo</option>
+                        <option value=""> Ghana</option>
+                        <option value=""> Benin</option>
+                        <option value=""> USA</option>
+                        <option value=""> Canada</option>
+                        <option value=""> Angleterre</option>
+                        <option value=""> Allemagne</option>
+                        <option value=""> Chine</option>
+
+                    </select>
+                </div>
+
+                <label > Joindre les fichiers</label><br>
+                <input type="file"><br>
+
+                
+
+                <label > Prix de contact</label><br>
+                <input type="number"><br>
+
+                <label >Date de rendez-vous</label><br>
+                <input type="datetime-local"><br>
+
+                <label > Couleur du lieu du rendez-vous</label><br>
+                <input type="color"><br>
+
+                <label >Pourcentage de satisfaction</label><br>
+                <input type="range"><br>
+
+                <label >Texte de motivation </label><br>
+                <textarea name="motivation" id="motivation" rows="5" cols="10"></textarea>
+                <br>
+
+                <button><a href="merci.html" target="_blank">valider</a></button>
+              </form>
+        </div>
+        
+
+    </section>
+</body>
+</html>

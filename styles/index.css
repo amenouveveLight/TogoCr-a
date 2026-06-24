@@ -1,0 +1,148 @@
+/* --- Styles Généraux --- */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  padding: 20px;
+}
+
+/* --- Style du premier bouton (Accueil) --- */
+body > button {
+  background-color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+body > button a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body > button:hover {
+  background-color: #555;
+}
+
+/* --- Centrage de la section principale --- */
+.formulaire {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.formulaire > h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* --- Conteneur Blanc du Formulaire --- */
+.formulaire > div {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre à l'intérieur du formulaire */
+form h1 {
+  font-size: 1.5rem;
+  color: #0066cc;
+  margin-top: 0;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+/* Sous-titres (Diplômes, Pays) */
+form h2 {
+  font-size: 1.1rem;
+  color: #444;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* --- Style des Textes de consignes (Labels) --- */
+form label {
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+/* --- Style des champs de saisie textuels et temporels --- */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"],
+form input[type="datetime-local"],
+form input[type="number"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Évite que les champs dépassent en largeur */
+  font-size: 1rem;
+}
+
+/* Changement de couleur au clic sur un champ */
+form input:focus,
+form select:focus,
+form textarea:focus {
+  border-color: #0066cc;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 102, 204, 0.2);
+}
+
+/* --- Cas particuliers (Ajustements visuels) --- */
+
+/* Alignement spécifique pour les cases et les radios existants */
+form input[type="checkbox"],
+form input[type="radio"] {
+  margin-right: 8px;
+  transform: scale(1.1);
+  margin-top: 10px;
+}
+
+/* Bloc de sélection des pays */
+form select[multiple] {
+  height: 120px;
+}
+
+/* Champ couleur */
+form input[type="color"] {
+  width: 60px;
+  height: 40px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+/* Zone de texte de motivation */
+form textarea {
+  resize: vertical; /* Permet d'agrandir seulement vers le bas */
+}
+
+/* --- Bouton de validation final --- */
+form button {
+  width: 100%;
+  background-color: #27ae60;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+form button a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  display: block; /* Rend toute la surface du bouton cliquable */
+}
+
+form button:hover {
+  background-color: #219653;
+}
